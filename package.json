@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
   "name": "intro-to-backend",
   "version": "1.0.0",
   "description": "a tutorial for intro to backend",
@@ -16,7 +15,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node /Users/vaddekiran/Desktop/intro-to-backend/backend/src/index.js",
+    "dev": "nodemon /Users/vaddekiran/Desktop/intro-to-backend/backend/src/index.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
